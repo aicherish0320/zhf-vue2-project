@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <router-view></router-view>
-  </div>
+  <div>忘记密码</div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'ForgetView'
 }
 </script>
 
