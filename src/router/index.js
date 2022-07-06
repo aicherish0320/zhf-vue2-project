@@ -6,9 +6,6 @@ Vue.use(VueRouter)
 const files = require.context('./', false, /\.router.js$/)
 const routes = []
 files.keys().forEach((key) => {
-  console.log('key >>> ', key)
-
-  console.log(files(key))
   routes.push(...files(key).default)
 })
 
