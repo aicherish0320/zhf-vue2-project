@@ -9,7 +9,9 @@ import {
   Col,
   Menu,
   MenuItem,
-  Submenu
+  Submenu,
+  Carousel,
+  CarouselItem
 } from 'element-ui'
 
 const components = [
@@ -22,7 +24,9 @@ const components = [
   Col,
   Menu,
   MenuItem,
-  Submenu
+  Submenu,
+  Carousel,
+  CarouselItem
 ]
 
 components.forEach((component) => {
