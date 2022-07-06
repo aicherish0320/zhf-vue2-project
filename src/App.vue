@@ -1,5 +1,5 @@
 <template>
-  <el-container>
+  <el-container style="min-width: 960px">
     <el-header>
       <PageHeader></PageHeader>
     </el-header>
