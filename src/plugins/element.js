@@ -1,4 +1,30 @@
 import Vue from 'vue'
-import { Button } from 'element-ui'
+import {
+  Button,
+  Container,
+  Header,
+  Main,
+  Footer,
+  Row,
+  Col,
+  Menu,
+  MenuItem,
+  Submenu
+} from 'element-ui'
 
-Vue.use(Button)
+const components = [
+  Button,
+  Container,
+  Header,
+  Main,
+  Footer,
+  Row,
+  Col,
+  Menu,
+  MenuItem,
+  Submenu
+]
+
+components.forEach((component) => {
+  Vue.use(component)
+})
