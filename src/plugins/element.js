@@ -11,8 +11,14 @@ import {
   MenuItem,
   Submenu,
   Carousel,
-  CarouselItem
+  CarouselItem,
+  Form,
+  FormItem,
+  Input,
+  Message
 } from 'element-ui'
+
+Vue.prototype.$message = Message
 
 const components = [
   Button,
@@ -26,7 +32,10 @@ const components = [
   MenuItem,
   Submenu,
   Carousel,
-  CarouselItem
+  CarouselItem,
+  Form,
+  FormItem,
+  Input
 ]
 
 components.forEach((component) => {

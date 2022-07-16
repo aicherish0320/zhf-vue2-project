@@ -1,3 +1,3 @@
 export default {
-  getSlider: '/api/public/getSlider'
+  getSlider: '/public/getSlider'
 }

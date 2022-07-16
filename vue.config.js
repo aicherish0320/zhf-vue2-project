@@ -22,6 +22,12 @@ module.exports = defineConfig({
           }
         ])
       })
+      devServer.app.post('/api/user/reg', (_, response) => {
+        response.json({
+          code: 0,
+          message: '成功'
+        })
+      })
 
       return middlewares
     }
