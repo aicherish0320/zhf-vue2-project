@@ -1,3 +1,4 @@
 export default {
-  getSlider: '/public/getSlider'
+  getSlider: '/public/getSlider',
+  getCaptcha: '/public/getCaptcha'
 }

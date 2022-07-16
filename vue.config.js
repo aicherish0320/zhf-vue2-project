@@ -1,4 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
+const svgCaptcha = require('svg-captcha')
+
 module.exports = defineConfig({
   transpileDependencies: true,
   devServer: {
@@ -27,6 +29,12 @@ module.exports = defineConfig({
           code: 0,
           message: '成功'
         })
+      })
+
+      devServer.app.get('/api/public/getCaptcha', (_, response) => {
+        const captcha = svgCaptcha.create()
+        response.type('svg')
+        response.status(200).send(captcha.data)
       })
 
       return middlewares
