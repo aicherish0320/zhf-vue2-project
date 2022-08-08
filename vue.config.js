@@ -30,7 +30,6 @@ module.exports = defineConfig({
           message: '成功'
         })
       })
-
       devServer.app.get('/api/public/getCaptcha', (_, response) => {
         const captcha = svgCaptcha.create()
         response.type('svg')
