@@ -12,3 +12,6 @@ export const getLocal = (key) => {
     return value
   }
 }
+
+window.setLocal = setLocal
+window.getLocal = getLocal

@@ -12,7 +12,7 @@ module.exports = defineConfig({
         response.json([
           {
             _id: 1,
-            url: 'https://www.keaidian.com/uploads/allimg/190424/24110307_35.jpg'
+            url: 'https://aic-lego.oss-cn-hangzhou.aliyuncs.com/editor-uploads/kj.jpeg'
           },
           {
             _id: 2,
@@ -20,7 +20,7 @@ module.exports = defineConfig({
           },
           {
             _id: 3,
-            url: 'https://www.keaidian.com/uploads/allimg/190424/24110307_8.jpg'
+            url: 'https://aic-lego.oss-cn-hangzhou.aliyuncs.com/editor-uploads/lisa.jpg'
           }
         ])
       })
